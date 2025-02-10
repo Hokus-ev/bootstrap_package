@@ -127,4 +127,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: frontend-build-assets
-          path: ./Resources/public  # Assuming 'dist' is where your frontend assets are located
+          path: ./.build  # Assuming 'dist' is where your frontend assets are located
