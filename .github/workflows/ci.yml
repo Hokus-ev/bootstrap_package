@@ -124,7 +124,7 @@ jobs:
           php-version: 7.4
           tools: composer:v2
       - name: Upload Frontend Build Assets
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: frontend-build-assets
           path: ./Build/dist  # Assuming 'dist' is where your frontend assets are located
